@@ -52,11 +52,14 @@ const MarketingDifference = () => {
   }, []);
 
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding-2 bg-white">
       <div className="container">
         <div ref={sectionRef} className="reveal">
+          <h2 className="section-title text-center ">
+          Welcome to <span className='bg-brand-red text-white'> Codient </span>
+          </h2>
           <h2 className="section-title text-center mb-16">
-          Welcome to Codient – Where Innovation Meets Impact
+           Where Innovation Meets Impact
           </h2>
           
           <div className="max-w-4xl mx-auto mb-16">

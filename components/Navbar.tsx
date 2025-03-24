@@ -64,7 +64,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-red-600">
+            <Link href="/" className="text-2xl font-bold text-brand-red">
               Codient
             </Link>
           </div>
@@ -72,29 +72,11 @@ export default function Navbar() {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger>Services</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <ul className="grid w-[600px] gap-3 p-4 md:grid-cols-2">
-                    {servicesLinks.map((item) => (
-                      <li key={item.title}>
-                        <NavigationMenuLink asChild>
-                          <Link
-                            href="#"
-                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                          >
-                            <div className="flex items-center gap-2">
-                              <item.icon className="h-4 w-4 text-red-600" />
-                              <div className="text-sm font-medium leading-none">{item.title}</div>
-                            </div>
-                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                              {item.description}
-                            </p>
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                    ))}
-                  </ul>
-                </NavigationMenuContent>
+                <Link href="/services" legacyBehavior passHref>
+                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                    Services
+                  </NavigationMenuLink>
+                </Link>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
@@ -155,7 +137,7 @@ export default function Navbar() {
           </NavigationMenu>
 
           <div className="flex items-center gap-4">
-            <Button variant="default" className="bg-red-600 hover:bg-red-700">
+            <Button variant="default" className="bg-brand-red">
               Get Started
             </Button>
           </div>

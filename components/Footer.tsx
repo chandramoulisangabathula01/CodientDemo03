@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-16">
           <div>
-            <h3 className="text-xl font-bold mb-4">HMDG</h3>
+            <h3 className="text-xl font-bold mb-4">CODIENT</h3>
             <p className="text-gray-400 mb-6">
-              Digital marketing specialists for healthcare, MSK and physiotherapy practices.
+              Empowering businesses with innovative digital solutions and cutting-edge technology services.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
@@ -67,7 +67,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-3 text-brand-red shrink-0 mt-0.5" />
-                <span className="text-gray-400">info@hmdg.com</span>
+                <span className="text-gray-400">info@Codient.com</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-brand-red shrink-0 mt-0.5" />
@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
         
         <div className="pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
-          <p>© 2023 Healthcare Marketing Digital Group. All rights reserved.</p>
+          <p>© 2023 Codient Technologies. All rights reserved.</p>
           <div className="mt-4 space-x-6">
             <a href="#" className="hover:text-white transition-colors duration-200">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors duration-200">Terms of Service</a>

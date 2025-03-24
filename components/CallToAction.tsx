@@ -38,13 +38,13 @@ const CallToAction = () => {
           <div className="bg-black text-white p-6 md:p-8 lg:p-24 rounded-3xl max-w-5xl mx-auto">
             <div className="text-center">
               <p className="text-xl md:text-2xl font-medium mb-4">
-                If you're looking for a full service marketing agency to help with your
+                Welcome to Codient – Where Innovation Meets Impact
               </p>
-              <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-brand-red mb-4">
-                local SEO, search engine visibility, consistent appointment bookings
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#ed5c0a] mb-4">
+                Transformative digital solutions for growth and success
               </p>
               <p className="text-xl md:text-2xl font-medium mb-8">
-                and measurable results then get in touch
+                Let's build something remarkable together
               </p>
               <Link href="/contact">
                 <Button className="bg-brand-red hover:bg-brand-red/90 text-lg">

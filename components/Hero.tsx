@@ -36,7 +36,7 @@ const Hero = () => {
                 Get Started
               </Button>
             </Link>
-            <Link href="/services/web-design">
+            <Link href="/services">
               <Button variant="outline" className="btn-secondary">
                 Our Services
               </Button>

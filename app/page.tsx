@@ -11,6 +11,7 @@ import Testimonials from "@/components/Testimonials"
 import Team from "@/components/Team"
 import CallToAction from "@/components/CallToAction"
 import Footer from "@/components/Footer"
+import WhatWeDo from "@/components/WhatWeDo"
 
 export default function Home() {
   return (
@@ -22,7 +23,9 @@ export default function Home() {
         {/* <WelcomeSection /> */}
         <MarketingDifference />
         {/* <Services /> */}
+        <WhatWeDo/>
         <Process />
+       
         <CaseStudies />
         <Expertise />
         {/* <Testimonials /> */}

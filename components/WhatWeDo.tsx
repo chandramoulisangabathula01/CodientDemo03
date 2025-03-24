@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 
-const Process = () => {
+const WhatWeDo = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   
@@ -39,36 +39,36 @@ const Process = () => {
   }, []);
 
   return (
-    <section id="approach" className=" bg-brand-lightgray max-w-7xl mx-auto px-4">
+    <section id="what-we-do" className="pt-16 pb-9 bg-brand-lightgray max-w-7xl mx-auto px-4">
       <div className="container">
         <div ref={sectionRef} className="reveal">
           <div className="flex flex-col lg:flex-row gap-16">
-            <div className="lg:w-1/2 p-6">
-              <div className="relative rounded-lg h-80 min-h-[30rem] md:h-96 overflow-hidden">
+            <div className="lg:w-1/2">
+              <h2 className="section-title">What we do</h2>
+              <div ref={contentRef} className="reveal">
+                <p className="text-md mb-2">
+                  We are a team of passionate digital innovators dedicated to transforming healthcare practices through strategic marketing and technology solutions.
+                </p>
+                <p className="text-md mb-2">
+                  Our expertise lies in understanding the unique challenges of healthcare providers and creating tailored digital strategies that enhance their online presence and patient engagement.
+                </p>
+                <p className="text-md mb-12">
+                  From website development to digital marketing campaigns, we provide comprehensive solutions that help healthcare practices thrive in the digital age while maintaining their focus on patient care.
+                </p>
+                <Button className="btn-primary flex items-center">
+                  About us <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </div>
+            </div>
+            <div className="lg:w-1/2 p-6 ">
+              <div className="relative rounded-lg h-80 min-h-[30rem] md:h-96 overflow-hidden ">
                 <Image
-                  src="/images/process/process.jpg"
-                  alt="Our Healthcare Process"
+                  src="/images/process/whatwedo.png"
+                  alt="What We Do"
                   fill
                   className="object-cover rounded-lg"
                   priority
                 />
-              </div>
-            </div>
-            <div className="lg:w-1/2">
-              <h2 className="section-title">How we do it</h2>
-              <div ref={contentRef} className="reveal">
-                <p className="text-md mb-2">
-                  Like your clinical work, we adapt to specific patient needs. Every practice is unique, and every town has its own healthcare landscape, so we carefully build marketing that makes you stand out.
-                </p>
-                <p className="text-md mb-2">
-                  You have a specialized skill set and training - working with the human body in a way most people don't understand. We have a specialized skill set too - online marketing that gets results for healthcare professionals specifically.
-                </p>
-                <p className="text-md mb-12 ">
-                  Through our years working with healthcare providers, we've built systems and methods that work specifically for clinics like yours. Our healthcare marketing approach helps you attract the patients you're looking for, instead of getting lost online.
-                </p>
-                <Button className="btn-primary flex items-center">
-                  Learn more <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
               </div>
             </div>
           </div>
@@ -78,4 +78,4 @@ const Process = () => {
   );
 };
 
-export default Process;
+export default WhatWeDo;

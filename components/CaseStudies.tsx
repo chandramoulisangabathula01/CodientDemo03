@@ -55,13 +55,13 @@ const CaseStudies = () => {
                 <Link href={`/case-studies/${caseStudy.slug}`} className="block h-full">
                   <div className="h-64 lg:h-72 relative overflow-hidden">
                     <Image
-                      src={`https://images.unsplash.com/photo-${caseStudy.id === 1 ? '1460925459838-0816e3e52c04' : '1504384764586-bb4cdc1707b0'}?auto=format&fit=crop&q=80`}
+                      src={caseStudy.image}
                       alt={caseStudy.title}
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-brand-black bg-opacity-0 group-hover:bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
-                      <span className="text-white text-xl font-medium px-6 py-3 border-2 border-white rounded-lg">View Case Study</span>
+                      <span className="text-white bg-brand-red text-xl font-medium px-6 py-3 border-2 border-white rounded-lg">View Case Study</span>
                     </div>
                   </div>
                   <div className="p-8">

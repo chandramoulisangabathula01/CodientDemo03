@@ -34,20 +34,19 @@ const Team = () => {
   }, []);
 
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding bg-white max-w-7xl mx-auto px-4">
       <div className="container">
         <div ref={sectionRef} className="reveal">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-8">
-            Meet the HMDG team
+            Meet the Codient Team
           </h2>
           
           <div className="max-w-4xl mb-8">
-            <p className="text-lg text-muted-foreground mb-8">
-              We're a fun and dynamic team with a host of different interests! You can find us walking the dog, dealing 
-              with rowdy children, hiking, horseriding, power lifting, drinking beer, drinking even more wine but most 
-              importantly, caring about your business. We're a friendly, ordinary bunch of people who love chatting, 
-              getting great results and making a difference to people's lives and businesses. Find out more about us 
-              on our team page.
+            <p className="text-lg text-black mb-8">
+              At Codient, we are a team of passionate digital innovators dedicated to crafting transformative digital ecosystems. 
+              Our expertise spans web design, UI/UX, digital marketing, and more, all aimed at driving growth and success for 
+              our clients. We believe in aligning technology with business objectives to create tailored solutions that make a 
+              real impact. Discover more about our dynamic team and how we can help elevate your business.
             </p>
             
             <Link href="/team">

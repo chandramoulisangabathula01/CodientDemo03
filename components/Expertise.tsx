@@ -31,39 +31,39 @@ const Expertise = () => {
 
   return (
     <section className="section-padding bg-white">
-      <div className="container">
+      <div className="container max-w-6xl mx-auto px-4">
         <div ref={sectionRef} className="reveal">
-          <h2 className="section-title text-center mb-16">
-            Healthcare, MSK and<br />
-            Physio Marketing Experts
+          <h2 className="section-title text-center mb-12">
+            Digital Innovation &<br />
+            Technology Excellence
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Knowledge and experience</h3>
-              <p className="text-muted-foreground">
-                Our team has worked with hundreds of healthcare practitioners across the UK. We understand clinical language, patient expectations, and how to communicate complex medical services in an accessible way. Our specialized knowledge allows us to create marketing that resonates with both patients and healthcare professionals.
+              <h3 className="text-xl font-bold mb-4">Technical Expertise</h3>
+              <p className="text-black">
+                Our team excels in cutting-edge web and app development, creating scalable solutions that drive business growth. From responsive websites to powerful mobile applications, we leverage the latest technologies to deliver high-performance digital solutions that exceed expectations.
               </p>
             </div>
             
             <div>
-              <h3 className="text-xl font-bold mb-4">Ethics</h3>
-              <p className="text-muted-foreground">
-                We understand the ethical considerations of healthcare marketing. All content we produce follows professional guidelines and regulatory requirements. We ensure all claims are substantiated and that patient expectations are managed appropriately. Our approach balances effective marketing with clinical responsibility.
+              <h3 className="text-xl font-bold mb-4">Digital Marketing Excellence</h3>
+              <p className="text-black">
+                We provide comprehensive digital marketing services including SEO, PPC, and social media strategies. Our data-driven approach ensures maximum ROI, helping businesses increase their online visibility, engage target audiences, and drive meaningful conversions.
               </p>
             </div>
             
             <div>
-              <h3 className="text-xl font-bold mb-4">Patient Focus</h3>
-              <p className="text-muted-foreground">
-                We understand the patient journey from initial awareness of symptoms through to searching for solutions and selecting a provider. Our marketing strategies consider the emotional and practical needs of patients at each stage, helping you connect with them at the right moment with the right message.
+              <h3 className="text-xl font-bold mb-4">Client-Focused Solutions</h3>
+              <p className="text-black">
+                Understanding your business goals is our priority. We create tailored digital solutions that align with your objectives, whether you're a startup looking to make a bold entrance or an established brand ready to scale. Our approach focuses on delivering measurable results and long-term success.
               </p>
             </div>
             
             <div>
-              <h3 className="text-xl font-bold mb-4">Relationships</h3>
-              <p className="text-muted-foreground">
-                Healthcare is built on trust and relationships. Our marketing focuses on helping you build genuine connections with patients and referral sources. We emphasize your expertise, approachability, and patient-centered care to establish trust before the first appointment even begins.
+              <h3 className="text-xl font-bold mb-4">Innovation & Support</h3>
+              <p className="text-black">
+                We stay ahead of digital trends to provide innovative solutions that give your business a competitive edge. Our commitment doesn't end at launch - we provide ongoing support, optimization, and updates to ensure your digital presence continues to evolve and perform at its best.
               </p>
             </div>
           </div>

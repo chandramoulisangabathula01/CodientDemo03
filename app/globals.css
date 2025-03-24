@@ -12,7 +12,7 @@
     --card-foreground: 240 10% 3.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
-    --primary: 346 100% 45%;
+    --primary: 21 91% 48%;
     --primary-foreground: 355 100% 97%;
     --secondary: 240 4.8% 95.9%;
     --secondary-foreground: 240 5.9% 10%;
@@ -36,6 +36,7 @@
 
 @layer components {
   .bg-brand-red {
+    
     @apply bg-primary;
   }
 }
@@ -48,7 +49,7 @@
     --card-foreground: 0 0% 95%;
     --popover: 0 0% 9%;
     --popover-foreground: 0 0% 95%;
-    --primary: 346 100% 45%;
+    --primary: 21 91% 48%;
     --primary-foreground: 355 100% 97%;
     --secondary: 240 3.7% 15.9%;
     --secondary-foreground: 0 0% 98%;
@@ -60,7 +61,7 @@
     --destructive-foreground: 0 85.7% 97.3%;
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --ring: 346 100% 45%;
+    --ring: 21 91% 48%;
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
@@ -87,6 +88,10 @@
   
   .section-padding {
     @apply py-12 md:py-16;
+  }
+
+  .section-padding-2 {
+    @apply py-6 md:py-8;
   }
   
   .section-title {
@@ -153,5 +158,22 @@
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
+  }
+}
+
+.service-card {
+  min-height: 400px;
+  height: 100%;
+}
+
+@layer components {
+  .grid-auto-rows-fr {
+    grid-auto-rows: 1fr;
+  }
+  @layer components {
+    .service-card {
+      min-height: 260px;  /* Reduced from 320px */
+      height: auto;
+    }
   }
 }
